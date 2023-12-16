@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/*  nav-styling     */
+.container-fluid{
+    
+    font-size: 2rem;
+    
+}
+.navbar{
+    background-color: pink;
+    padding: 0 2rem;
+}
+.navbar a{
+    color: black;
+}
+
+.nav-item{
+    padding: 1rem 2rem;
+    
+}
+
+/*  sign up */
+.form-container{
+    margin: 4rem;
+}

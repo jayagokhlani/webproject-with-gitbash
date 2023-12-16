@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>headerlinks}}
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    {{>navbar}}
+
+    <!--    main header   -->
+    <div class="container-fluid main-header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="main_content">
+                    <form action="" class="temp_form">
+                        <input type="text" name="" id="cityName" placeholder="Enter your city Name" autocomplete="off">
+                        <input type="submit" value="Search" id="submitBtn">
+                    </form>
+                </div>
+
+                <div class="tempInformation">
+                    <div class="top_layer">
+                      
+                        <p id="day">thrusday</p>
+                        <p id="date">19 Oct</p>
+                    </div>
+                    <div class="main_layer">
+                        <p id="city_name">get output here</p>
+                        <div class="middle_layer data_hide">
+                            <p id="temp"><span id="temp_real_val">0</span> <sup>o</sup> C</p>
+                            <p id="temp_status"><span class="material-symbols-outlined cloud">cloud</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- footer -->
+    {{>footer}}
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
